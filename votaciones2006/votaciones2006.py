@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-data = pd.read_csv("Computos2006-Presidente.txt", sep='|')
+data = pd.read_csv("votaciones2006/Computos2006-Presidente.txt", sep='|')
 print("Numero entradas:", data.shape)
 st.markdown("# Análisis de datos de las votaciones del 2006")
 st.markdown("Primero cargamos los datos")
